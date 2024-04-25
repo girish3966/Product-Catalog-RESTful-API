@@ -5,14 +5,14 @@ This project implements a RESTful API for managing a structured product catalogu
 
 Product Entity Structure:
 
-    id: Unique identifier for the product.
-    name: Name of the product.
-    description: Text description of the product.
-    price: Price of the product.
-    categories: Array of categories the product belongs to.
-    attributes: Array of key-value pairs for additional attributes.
-    availability: Object containing availability information.
-    ratings: Array of user ratings with user ID, rating value, and optional comment.
+id: Unique identifier for the product.
+name: Name of the product.
+description: Text description of the product.
+price: Price of the product.
+categories: Array of categories the product belongs to.
+attributes: Array of key-value pairs for additional attributes.
+availability: Object containing availability information.
+ratings: Array of user ratings with user ID, rating value, and optional comment.
 
 Database Integration:
 
