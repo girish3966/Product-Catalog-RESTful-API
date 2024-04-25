@@ -15,18 +15,16 @@ availability: Object containing availability information.
 ratings: Array of user ratings with user ID, rating value, and optional comment.
 
 Database Integration:
-
-    For MongoDB: Utilizes nested documents to store product data.
-    For SQL: JSON data types or relational tables can be used to handle nested structures.
+For MongoDB: Utilizes nested documents to store product data.
+For SQL: JSON data types or relational tables can be used to handle nested structures.
 
 API Functionality:
 
-    Endpoints for adding, retrieving, updating, and deleting products.
-    Endpoint for searching products with filters for name, category, and attributes.
+Endpoints for adding, retrieving, updating, and deleting products.
+Endpoint for searching products with filters for name, category, and attributes.
 
 API Documentation:
-
-    Add a Product:
+ Add a Product:
         URL: /products
         Method: POST
         Request Body: JSON
@@ -51,17 +49,11 @@ API Documentation:
         Response: 200 OK with array of matching products
 
 Database Setup Instructions:
-
-    For MongoDB: Install MongoDB, start server, create database and collection, configure URI in application properties.
-    For SQL: Install SQL database server, design tables for nested structure, execute scripts to create tables and relationships.
+For MongoDB: Install MongoDB, start server, create database and collection, configure URI in application properties.
+For SQL: Install SQL database server, design tables for nested structure, execute scripts to create tables and relationships.
 
 Initial Data Seeding:
-
-    Manually insert initial data using provided endpoints or create scripts for automation.
-
-Project Hosting:
-
-    Host on any server supporting Java applications (e.g., AWS, Heroku, local server).
+ Manually insert initial data using provided endpoints or create scripts for automation.
 
 Conclusion:
 This documentation provides a comprehensive overview of the REST API project for a structured product catalogue system, including API endpoints, data model, database integration, setup instructions, and hosting options.
